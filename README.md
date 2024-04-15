@@ -1,25 +1,12 @@
 # Python Challenge: Financial Analysis (PyBank) and Vote Counting (PyPoll)
 
-# Before You Begin
-Before starting the assignment, be sure to complete the following steps:
+## Introduction
+In this challenge, you'll dive into Python scripting to analyze financial records and modernize the vote-counting process.
+Before you begin, make sure to set up your environment by creating a new repository named python-challenge and organizing your files accordingly. The project consists of two main tasks: PyBank and PyPoll.
+In the PyBank task, you'll analyze financial data from a dataset called budget_data.csv. Your goal is to calculate various financial metrics such as total months, net profit/loss, average change, and identify the greatest increase and decrease in profits.
+In the PyPoll task, you'll work with election data from a dataset called election_data.csv. Your objective is to determine the total number of votes cast, list candidates who received votes, calculate their vote percentages, and declare the winner based on popular vote.
 
-Create a new repository for this project called python-challenge. Do not add this homework assignment to an existing repository.
-
-Clone the new repository to your computer.
-
-Inside your local Git repository, create a folder for each Python assignment and name them PyBank and PyPoll.
-
-In each folder that you just created, add the following content:
-
-A new file called main.py. This will be the main script to run for each analysis.
-
-A Resources folder that contains the CSV files you used. Make sure that your script has the correct path to the CSV file.
-
-An analysis folder that contains your text file that has the results from your analysis.
-
-Push these changes to GitHub or GitLab.
-
-# PyBank Instructions
+## PyBank Instructions
 In this Challenge, you are tasked with creating a Python script to analyze the financial records of your company. You will be given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
 
 Your task is to create a Python script that analyzes the records to calculate each of the following values:
